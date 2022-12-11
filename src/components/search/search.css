@@ -1,0 +1,87 @@
+.path{
+    display:flex;
+    margin:10px;
+}
+.med{
+    font-weight: bold;
+}
+
+.searchbar{
+    margin: 10px;
+}
+.box2{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid grey;
+    padding:2px;
+    border-radius: 4px ;
+}
+.box2 i{
+    font-size: 25px;
+    margin:0px 5px 0px 5px;
+    color:grey;
+}
+.field{
+    border:none;
+    width:30%;
+    height:20px;
+    padding:10px;
+   
+
+}
+.field::-webkit-input-placeholder {
+   
+    font-weight: bold;
+    font-size:20px;
+}
+.btn{
+    font-size:20px;
+    color: white;
+    background-color:rgb(44, 173, 173);
+   border: 1px solid rgb(44, 173, 173);
+    width:148px;
+    height:46px;
+    cursor: pointer;
+   
+}
+.pathli{
+    font-weight: bold;
+    font-size:15px;
+    color: grey;   
+}
+
+.detail{
+  font-size: 20px;
+  color: grey;
+  margin-left: 8px;
+    
+}
+.medname{
+ font-weight: bold;
+ font-size:25px;
+ color: grey;
+ margin-left: 8px;
+
+}
+.box{
+  
+    color: white;
+    background-color:rgb(44, 173, 173);
+    border: 1px solid rgb(44, 173, 173); 
+    border-radius:5px;
+    font-size:12px;
+    padding:5px;
+    margin-left: 8px;
+    cursor: pointer;
+  
+}
+
+.delete{
+    font-size:12px;
+    color: rgb(152, 5, 5);
+    padding:5px;
+    font-weight:bold;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
